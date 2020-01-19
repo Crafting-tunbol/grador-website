@@ -1,10 +1,12 @@
+{% load static %}
 <head>
+  <title>Grador serveur Minecraft</title>
+  <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.png' %}"/>
   <link rel="stylesheet" type="text/css" href="https://cartr.gitlab.io/undertale-fonts/webfonts/stylesheet.css">
-  {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static "style.css" %}">
 </head>
 <body>
-  <img class="center" src="https://cdn.discordapp.com/attachments/633350280192458783/668496706358214656/Capture_decran_2020-01-15_a_18.03.58.png" height="200" width="200"/>
+  <img class="center" src="{% static "images/logo.png" %}" height="200" width="200"/>
   <h1>
     État du serveur : <strong id="online">{{ server.status }}</strong>
     <br>

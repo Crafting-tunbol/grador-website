@@ -6,10 +6,21 @@
   <link rel="stylesheet" type="text/css" href="{% static "style.css" %}">
 </head>
 <body>
-  <img class="center" src="{% static "images/logo.png" %}" height="200" width="200"/>
-  <h1>
-    État du serveur : <strong id="online">{{ server.status }}</strong>
-    <br>
-    Joueurs en lignes : <span id="ponline">{{ server.players.now }}</span> / <span id="max">{{ server.players.max }}</span>
+  <img class="center" src="{% static "images/logo.png" %}" height="400" width="400"/>
+  <h1 class="center">
+    Bienvenue sur Grador.fr notre site est encore en dévelopement alors soyez indulgent :)
   </h1>
+  <h2>
+    État du serveur : <font color="{{ server.color }}"><strong>{{ server.status }}</strong></font>
+    <br>
+    Joueurs en lignes : <span>{{ server.players.now }}</span> / <span>{{ server.players.max }}</span>
+  </h2>
+  <h1  class="center">
+  <img src="{% static "images/Minecraft.jpg" %}" height="600" width="1400"/> <font color="#FFFB01">Rejoignez nous sur Grador.fun ou fr en 1.15</font>
+  </h1>
+  <h1 class="center">
+    <a href="https://discord.gg/ENJNA9t" rel="noopener noreferrer" target="_blank"> <font color="#2B01FF">Rejoignez-notre serveur discord<img class="center" src="{% static "images/Discord_logo.png" %}" height="200" width="300"/></a>
+   </h1>
+   <h1 class="center"><font color="#01AEFF  ">Notre développeur développe...<br>un super <font color="#FFFB01">Launcher !</font></h1>
+  <iframe allowtransparency="true" width="800" height="600" src="//scratch.mit.edu/projects/embed/360634678/?autostart=false" frameborder="0" allowfullscreen class="center"></iframe>
 </body>

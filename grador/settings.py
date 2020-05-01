@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
+    'www.grador.fr',
+    'www.grador.fun',
     'grador.fr',
     'grador.fun',
     '192.168.1.34',

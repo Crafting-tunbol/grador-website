@@ -49,3 +49,46 @@ body {
 .iframe-container-4x3 {
   padding-top: 75%;
 }
+
+.BUTTON_QHB {
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: #FFFFFF;
+   font-family: "Determination Mono", sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   padding: 20px;
+   background-color: #0F32DF;
+   box-shadow: 1px 1px 20px 0px #112793;
+   -webkit-box-shadow: 1px 1px 20px 0px #112793;
+   -moz-box-shadow: 1px 1px 20px 0px #112793;
+   border: solid #0F32DF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_QHB:hover {
+   background: #08239D;
+   border: solid #08239D 1px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.discord-logo {
+  background-image: url('images/Discord_logo.png');
+}
+
+.icone {
+  height: 1em;
+  width: 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle
+}

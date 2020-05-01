@@ -8,7 +8,7 @@
 <body>
   <img class="center" src="{% static "images/logo.png" %}" height="400" width="400"/>
   <h1 class="center">
-    <font class="font-1" color="#FFFB01">Bienvenue sur Grador.fr notre site est encore en dévelopement alors soyez indulgent :)</font>
+    <font class="font-1" color="#FFFB01">Bienvenue sur le site de Grador notre site est encore en dévelopement alors soyez indulgent :)</font>
   </h1>
   <h2>
     État du serveur : <font color="{{ server.color }}"><strong>{{ server.status }}</strong></font>
@@ -16,25 +16,20 @@
     Joueurs en lignes : <span>{{ server.players.now }}</span> / <span>{{ server.players.max }}</span>
   </h2>
   <h1>
-    <img class="BgLayer" width="100%" src="{% static "images/Minecraft.jpg" %}"/>
-    <font color="#FF8F01" class="center">Rejoignez nous sur Grador.fun ou fr en 1.15</font>
-  </h1>
-  <h1 class="center">
-    <a href="https://discord.gg/ENJNA9t" rel="noopener noreferrer" target="_blank">
-      <font color="#2B01FF">
-        Rejoignez-notre serveur discord
-        <br>
-      </font>
-      <img class="center" src="{% static "images/Discord_logo.png" %}" width="300"/>
-    </a>
-  </h1>
-  <div class="row">
+   <div style="position:relative; height:400px">
+    <div style="position:absolute;z-index:1">
+     <img width="100%" src="{% static "images/Savane-en-beau.png" %}">
+     </div>
+     <div style="position:absolute;top:200px; width:600px; height:400px; z-index:2;font-size:200%">
+      <center><b><font color="#FFC902" class="center">Rejoignez nous sur play.Grador.fr ou .fun en 1.15.2</font></b></center>
+</div>
+</h1>
+  <div class="row" style="position:relative;top:400px">
     <div class="column">
       <h1 class="center">
         <font color="#01AEFF">
           Notre développeur développe...
-          <br>un super&nbsp;<font color="#FFFB01">Launcher !
-          </font>
+          <br>un super&nbsp;<font color="#FFFB01">Launcher !</font>
         </font>
       </h1>
       <div class="iframe-container">
@@ -47,8 +42,21 @@
         <font color="#01AEFF">Grador offical trailer</font>
       </h1>
       <div class="iframe-container">
-        <iframe id="ytplayer" type="text/html" src="http://www.youtube.com/embed/gFvC0krpj78?autoplay=1&origin=http://grador.fr"></iframe>
+        <iframe id="ytplayer" type="text/html" src="http://www.youtube.com/embed/gFvC0krpj78?autoplay=0&origin=http://grador.fr&"></iframe>
       </div>
     </div>
   </div>
+  <h1>
+    <div style="position:relative; height:400px; top:378px">
+    <div style="position:absolute;z-index:1">
+      <img width="1425  " src="{% static "images/background-discord.png" %}">
+    </div>
+    <div style="position:absolute;top:100px; left:400px; z-index:2;font-size:100%" class="center">
+      <a href="https://discord.gg/ENJNA9t" target="_blank" class="BUTTON_QHB">
+        <i class="icone discord-logo"></i>
+        Rejoignez notre serveur discord
+        <br>
+      </a>
+    </div>
+  </h1>
 </body>
